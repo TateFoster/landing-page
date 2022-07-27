@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Amzao's Power Plan!</h1>
+      <ul>
+        <li class="button"><a href="#contact-us">Contact Us!</a></li>
+        <li class="button"><a href="#">Squid Power</a></li>
+        <li class="button"><a href="#">Finaces</a></li>
+      </ul>
+    </header>
+    <section class="container">
+      <h2>Squid Power</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium,
+        accusamus fuga. Cum mollitia, harum, officiis autem aut eveniet commodi
+        deleniti voluptatem quasi omnis veritatis maxime temporibus suscipit
+        velit reprehenderit rem?
+      </p>
+      <figure>
+        <img
+          src="https://cdn.pixabay.com/photo/2013/04/07/01/17/squid-101375_960_720.jpg"
+          alt="Picture of squids that will be used as a power source."
+        />
+      </figure>
+    </section>
+    <section>
+      <h2>Finances</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eveniet
+        atque fugiat porro quis facere consectetur, soluta beatae sed nesciunt
+        expedita tempore iusto. Necessitatibus voluptatum culpa cum neque atque
+        harum exercitationem vel fuga, vitae earum consequatur ea. Qui magnam
+        deleniti ex temporibus dolorum dolores fugit!
+      </p>
+    </section>
+    <!-- This section of code came from w3schools contact form -->
+    <section class="container contact-us">
+      <h2>Contact Us!</h2>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <footer>
+      <h2>Join Amazo in the newest power plan for the whole world!</h2>
+    </footer>
+  </body>
+</html>
